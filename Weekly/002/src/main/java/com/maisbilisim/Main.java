@@ -6,7 +6,8 @@ public class Main {
     private static final Map<String, String> translationMap = Map.ofEntries(
             Map.entry("hun", "Szia"),
             Map.entry("eng", "Hello"),
-            Map.entry("tur", "Merhaba"));
+            Map.entry("tur", "Merhaba"),
+            Map.entry("esp", "Hola"));
 
     public static void main(String[] args) {
         if (args.length == 0) {
